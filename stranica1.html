@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Unos podataka</title>
+    <link rel="stylesheet" href="dizajn.css" type="text/css" />
+</head>
+<body>
+<article>
+    <h2>Prijava</h2>
+    <form action="index.html" method="post">
+        <fieldset>
+            <legend>Osobni podaci</legend>
+            <label for="ime">Ime:</label>
+            <input id="ime" type="text" name="ime">
+            <label for="prezime">Prezime:</label>
+            <input id="prezime" type="text" name="prezime"><br>
+            <label>Idete li u skolu?</label><br>
+            <label>
+                <input type="radio" name="skolarina" value="da">DA<br>
+                <input type="radio" name="skolarina" value="ne">NE<br>
+            </label><br>
+            <label for="oib">OIB:</label>
+            <input id="oib" type="number" name="oib">
+        </fieldset>
+        <fieldset>
+            <legend>Dodatni podaci</legend>
+            <label for="Najdrazi predmet">Najdrazi predmeti:</label><br>
+            <select name="Najdrazi predmet" multiple>
+                <option value="r">Racunalstvo</option>
+                <option value="ppj">Programiranje i programski jezici</option>
+                <option value="mtv">Multimedijalne tehnologije</option>
+                <option value="pi">Programiranje za internet</option>
+                <option value="it">Internetske tehnologije</option>
+                <option value="is">Informacijski sustavi</option>
+                <option value="mtv">Multimedijalne Tehnologije</option>
+                <option value="osim">Operacijski sustavi i mreze</option>
+                <option value ="grr">Grada racunala</option>
+            </select><br>
+            <label for="Boja">Boja:</label><br>
+            <select name="Boja">
+                <option value="red">Crvena</option>
+                <option value="blue">Plava</option>
+                <option value="zelena">Zelena</option>
+            </select><br>
+            <center><input type="button" name="posalji" value="Posalji"></center>
+        </fieldset>
+    </form>
+</article>
+</body>
+</html>
