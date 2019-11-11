@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unos Podataka</title>
+    <link rel="stylesheet" href="dizajn.css" type="text/css"/>
+</head>
+<body>
+    <article>
+        <h2>Unos Podataka</h2>
+        <form action="obrada2.php" method="post">
+            <fieldset>
+                <legend>Osnovni Podaci</legend>
+                <label for="ime">IME: </label>
+                <input id="ime" name="ime" type="text" maxlength="16">
+                <label for="prezime">PREZIME: </label>
+                <input id="prezime" name="prezime" type="text" maxlength="16">
+                <label for="rodenje">DATUM ROĐENJA: </label>
+                <input id="rodenje" name="godinarodenja" type="date">
+                <br>
+                <label for="spol">SPOL: </label>
+                    <input type="radio" id="spol1" name="spol" value="M">Muško
+                    <input type="radio" id="spol2" name="spol" value="Z">Žensko
+            </fieldset>
+            <fieldset>
+                <legend>Adresa i Školovanje</legend>
+                <label for="adresa">ADRESA: </label>
+                <input id="adresa" type="text" maxlength="90">
+                <label for="grad">GRAD: </label>
+                <input >
+            </fieldset>
+        </form>
+    </article>
+</body>
+</html>
